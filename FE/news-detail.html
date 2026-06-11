@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Detail - SILVIET</title>
+    <link rel="stylesheet" href="./css/Index.css">
+    <style>
+    .detail-container { max-width: 1200px; margin: 120px auto 50px; padding: 0 20px; }
+    
+    /* Bố cục chính */
+    .article-layout { display: flex; gap: 40px; align-items: flex-start; }
+    
+    /* Cột nội dung (Trái) - Giảm xuống còn 1.5 phần */
+    .article-main { flex: 1.5; }
+    
+    /* Cột ảnh (Phải) - Tăng lên 1 phần (Ảnh sẽ to hơn rõ rệt) */
+    .article-side { flex: 1; }
+    
+    .article-image { 
+        width: 100%; 
+        height: auto; /* Để chiều cao tự động theo tỷ lệ ảnh */
+        min-height: 400px; /* Đảm bảo ảnh không bị quá lùn */
+        object-fit: cover; 
+        border-radius: 8px; 
+        display: none; 
+    }
+    
+    .article-title { font-size: 2.5rem; color: var(--color-secondary); margin-bottom: 1rem; }
+    .article-content { line-height: 1.8; color: var(--color-text); font-size: 1.1rem; }
+    .back-link { display: inline-block; margin-bottom: 2rem; color: var(--color-primary); font-weight: 600; text-decoration: none; }
+</style>
+</head>
+<body>
+
+    <main class="detail-container">
+        <a href="news.html" class="back-link">← Back to News</a>
+        
+        <div class="article-layout">
+            <div class="article-main">
+                <h1 id="article-title" class="article-title">Loading...</h1>
+                <div id="article-content" class="article-content"></div>
+            </div>
+
+            <div class="article-side">
+                <img id="article-image" src="" alt="Article Image" class="article-image" onerror="this.style.display='none'">
+            </div>
+        </div>
+    </main>
+
+    <script type="module">
+      import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+
+    const supabase = createClient('https://qvnnnhamgdfzsschakkw.supabase.co/', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF2bm5uaGFtZ2RmenNzY2hha2t3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA0NzA5NjIsImV4cCI6MjA5NjA0Njk2Mn0.83MF7CSVTV60SJCZ7qh21B4c0B7f-P0ueoSx5mUh2B4');
+
+    const slug = new URLSearchParams(window.location.search).get('slug');
+
+    async function loadData() {
+        if (!slug) return;
+        
+        // Truy vấn dữ liệu bao gồm image_url từ bảng news_articles
+        const { data, error } = await supabase
+            .from('news_articles')
+            .select('title, content, image_url')
+            .eq('slug', slug)
+            .single();
+
+        if (data) {
+            // Hiển thị nội dung văn bản
+            document.getElementById('article-title').innerText = data.title;
+            document.getElementById('article-content').innerHTML = data.content;
+            
+            // Xử lý và hiển thị hình ảnh
+            const imgEl = document.getElementById('article-image');
+            if (data.image_url) {
+                imgEl.src = data.image_url;
+                imgEl.style.display = 'block'; // Hiện ảnh lên sau khi gán nguồn
+            } else {
+                imgEl.style.display = 'none'; // Ẩn nếu không có dữ liệu ảnh
+            }
+        } else {
+            console.error("Lỗi khi tải dữ liệu:", error);
+        }
+    }
+    loadData();
+
+        
+    </script>
+</body>
+</html>

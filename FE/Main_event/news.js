@@ -75,16 +75,17 @@ function renderNews(articles) {
 
     grid.innerHTML = articles.map(art => `
         <div class="card news-card">
+            ${art.image_url ? `<img src="${art.image_url}" alt="${art.title}" class="news-thumbnail" style="width:100%; height:200px; object-fit:cover; border-radius: 8px 8px 0 0;">` : ''}
+            
             <div class="news-card-content">
                 <span class="news-date">${art.created_at ? art.created_at.split('T')[0] : 'N/A'}</span>
                 <h3 class="news-title">${art.title}</h3>
                 <p class="news-excerpt">${art.content ? art.content.substring(0, 100) : '...'}</p>
-                <a href="${art.url || '#'}" class="read-more" target="_blank">Read More →</a>
+                <a href="news-detail.html?slug=${art.slug}" class="read-more">Read More →</a>
             </div>
         </div>
     `).join('');
 }
-
 function filterNews(category) {
     if (category === "All") {
         renderNews(allNewsData);

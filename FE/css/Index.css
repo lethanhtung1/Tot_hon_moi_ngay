@@ -108,7 +108,7 @@ body::after {
   transform: translate(-50%, -50%);
   width: 90vmin;
   height: 90vmin;
-  background-image: url('../image/BG.jpg');
+  background-image: url('../image/BG1.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
