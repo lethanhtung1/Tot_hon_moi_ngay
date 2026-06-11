@@ -1,0 +1,413 @@
+{
+
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "products": "Sản Phẩm",
+    "services": "Dịch Vụ",
+    "market": "Thị Trường & Xuất Khẩu",
+    "news": "Tin Tức",
+    "contact": "Liên Hệ",
+    "languageSelection": "Chọn ngôn ngữ",
+    "getInTouch": "Liên Hệ Ngay"
+  },
+  "about": {
+    "hero": {
+      "tagline": "Về SILVIET",
+      "title": "Xây Dựng Năng Lực Công Nghiệp Cho Tương Lai",
+      "description": "Một đối tác chiến lược cam kết thúc đẩy các giải pháp silica kết tủa tại Đông Nam Á thông qua chất lượng, đổi mới và hợp tác lâu dài."
+    },
+    "vision": {
+      "title": "Tầm Nhìn",
+      "description": "Trở thành đối tác chiến lược đáng tin cậy cung cấp silica kết tủa cao cấp tại Đông Nam Á, đóng góp vào sự phát triển công nghiệp bền vững trên toàn khu vực."
+    },
+    "mission": {
+      "title": "Sứ Mệnh",
+      "description": "Cung cấp các giải pháp silicon dioxide đồng nhất, chất lượng cao; đồng thời xây dựng năng lực công nghiệp địa phương và thúc đẩy mối quan hệ hợp tác lâu dài với các nhà sản xuất trên toàn thế giới."
+    },
+    "story": {
+      "title": "Câu Chuyện Của Chúng Tôi",
+      "subtitle": "Từ tầm nhìn chiến lược đến thực tế công nghiệp",
+      "p1": "SILVIET được thành lập với mục tiêu rõ ràng: giải quyết nhu cầu ngày càng tăng về silica kết tủa chất lượng cao tại Đông Nam Á, đồng thời xây dựng năng lực công nghiệp địa phương bền vững.",
+      "p2": "Vị trí chiến lược của Việt Nam, cơ sở hạ tầng logistics vững chắc và khả năng tiếp cận nguồn nguyên liệu thô khiến nơi đây trở thành trung tâm lý tưởng cho việc sản xuất và phân phối silica. Nhận thấy cơ hội này, chúng tôi đã cam kết thực hiện một phương pháp tiếp cận bài bản, phân kỳ để phát triển.",
+      "p3": "Phương pháp tiếp cận của chúng tôi ưu tiên giá trị lâu dài hơn lợi ích ngắn hạn. Chúng tôi tin tưởng vào việc xây dựng mối quan hệ đối tác chân thành với khách hàng, thấu hiểu nhu cầu của họ và cùng nhau phát triển khi ngành công nghiệp ngày càng phát triển."
+    },
+    "roadmap": {
+      "title": "Lộ Trình Phát Triển",
+      "subtitle": "Tiếp cận theo từng giai đoạn để tăng trưởng bền vững",
+      "phase1": {
+        "name": "Giai đoạn 1: Nền tảng (0-18 tháng)",
+        "title": "Phát Triển Thương Mại & Logistics",
+        "description": "Thiết lập các hoạt động thương mại, xây dựng mạng lưới logistics, phát triển mối quan hệ với khách hàng và tích lũy dữ liệu thị trường. Tập trung trở thành một đối tác thương mại và cung ứng đáng tin cậy."
+      },
+      "phase2": {
+        "name": "Giai đoạn 2: Phát triển (18-36 tháng)",
+        "title": "Sản Xuất Thử Nghiệm & Công Nghệ",
+        "description": "Bắt đầu sản xuất thử nghiệm, thử nghiệm các công thức sản phẩm, phát triển chuyên môn kỹ thuật và thiết lập hệ thống kiểm soát chất lượng. Xây dựng mối quan hệ đối tác với các nhà cung cấp công nghệ."
+      },
+      "phase3": {
+        "name": "Giai đoạn 3 — Mở rộng sản xuất (Năm 3–6)",
+        "title": "Nâng Cao Năng Lực Và Đa Dạng Hóa Sản Phẩm",
+        "description": "Phát triển năng lực sản xuất silica tại Việt Nam, giảm sự phụ thuộc vào nhập khẩu, mở rộng danh mục sản phẩm và phục vụ các ứng dụng công nghiệp rộng rãi hơn."
+      },
+      "phase4": {
+        "name": "Giai đoạn 4 — Nền tảng công nghiệp khu vực",
+        "title": "Mạng Lưới Cung Ứng Vật Liệu Và Hóa Chất Tích Hợp",
+        "description": "Mở rộng năng lực sản xuất, quy mô thương mại & logistics, xây dựng nền tảng cung ứng toàn diện và phục vụ thị trường trong nước lẫn toàn cầu."
+      }
+    },
+    "values": {
+      "title": "Giá Trị Cốt Lõi SILVIET",
+      "subtitle": "Những nguyên tắc cơ bản thúc đẩy văn hóa và hoạt động của chúng tôi",
+      "fiveTs": {
+        "tin": {
+          "label": "NHÂN",
+          "desc": "Lòng nhân ái, tử tế"
+        },
+        "tam": {
+          "label": "NGHĨA",
+          "desc": "Trách nhiệm, chính trực"
+        },
+        "tai": {
+          "label": "LỄ",
+          "desc": "Lịch thiệp & chuẩn mực đạo đức"
+        },
+        "tri": {
+          "label": "TRÍ",
+          "desc": "Lắng nghe & thấu hiểu"
+        },
+        "tam2": {
+          "label": "TÍN",
+          "desc": "Uy tín, sự tin cậy"
+        }
+      },
+      "highlights": {
+        "efficiency": {
+          "title": "HIỆU QUẢ",
+          "desc": "Mở rộng thành công & Loại bỏ lãng phí"
+        },
+        "culture": {
+          "title": "VĂN HÓA SILVIET",
+          "desc": "Trung thực · Chuyên nghiệp · Đoàn kết · Sáng tạo"
+        }
+      }
+    },
+    "cta": {
+      "title": "Hợp Tác Cùng SILVIET",
+      "description": "SilViet đang xây dựng một nền tảng tích hợp kết hợp giữa thương mại công nghiệp, dịch vụ logistics, xuất khẩu toàn cầu và sản xuất silica trong tương lai.",
+      "button": "Liên Hệ Chúng Tôi"
+    }
+  },
+  
+  "footer": {
+    "brand": "SILVIET",
+    "slogan": "Tốt Hơn Mỗi Ngày",
+    "description": "",
+    "contact": {
+      "address": "193 Đường Nguyễn Xí, Phường Bình Thạnh",
+      "email": "info@silviet.com",
+      "phone": "+84 938 969 238"
+    },
+    "company": "CÔNG TY",
+    "aboutUs": "Về SilViet",
+    "ourPlatform": "Nền tảng của chúng tôi",
+    "newsUpdates": "Tin tức & Góc nhìn",
+    "contactUs": "Liên hệ",
+    "products": "SẢN PHẨM & GIẢI PHÁP",
+    "materialsTrading": "Thương mại vật liệu công nghiệp",
+    "precipitatedSilica": "Sản phẩm Silica",
+    "exportServices": "Dịch vụ xuất khẩu",
+    "logistics": "Giải pháp Logistics",
+    "markets": "THỊ TRƯỜNG",
+    "vietnamMarket": "Thị trường Việt Nam",
+    "southeastAsia": "Đông Nam Á",
+    "exportRegions": "Xuất khẩu toàn cầu",
+    "partnership": "Cơ hội hợp tác",
+    "copyright": "© 2026 SILVIET. Bảo lưu mọi quyền.",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsOfService": "Điều khoản dịch vụ"
+  },
+    "form": {
+      "title": "Gửi Lời Nhắn",
+      "fullName": "Họ và tên *",
+      "company": "Tên công ty",
+      "email": "Địa chỉ Email *",
+      "phone": "Số điện thoại",
+      "inquiry": "Loại hình liên hệ *",
+      "select": "Chọn một tùy chọn...",
+      "opt1": "Cung ứng vật liệu công nghiệp",
+      "opt2": "Xuất khẩu & Logistics",
+      "opt3": "Cơ hội hợp tác phát triển",
+      "opt4": "Hỗ trợ kỹ thuật",
+      "opt5": "Khác",
+      "message": "Lời nhắn *",
+      "placeholder": "Vui lòng cho biết yêu cầu của bạn...",
+      "button": "Gửi Cho Chúng Tôi",
+      "note": "Chúng tôi thường phản hồi trong vòng 1-2 ngày làm việc."
+    },
+    "info": {
+      "title": "Thông Tin Công Ty",
+      "location": "Địa chỉ",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "office": {
+        "value": "193 Nguyễn Xí, Phường 26, Quận Bình Thạnh, TP. Hồ Chí Minh"
+      },
+      "hours": "Giờ làm việc",
+      "hours_v": "Thứ 2 - Thứ 6: 8:00 SA - 6:00 CH (GMT+7)"
+    },
+    "audience": {
+      "title": "Đối Tác Của Chúng Tôi Là Ai?",
+      "subtitle": "Chúng tôi xây dựng mối quan hệ hợp tác chiến lược trong toàn bộ hệ sinh thái công nghiệp.",
+      "t1": "Khách Hàng Công Nghiệp",
+      "d1": "Các nhà sản xuất lốp xe, cao su, chất phủ, nông nghiệp có nhu cầu tìm nguồn cung ứng silica & vật liệu công nghiệp.",
+      "t2": "Đối Tác Phân Phối",
+      "d2": "Các nhà phân phối khu vực đang tìm kiếm quan hệ đối tác cung ứng đáng tin cậy và mở rộng danh mục sản phẩm.",
+      "t3": "Đối Tác Công Nghệ",
+      "d3": "Các kỹ sư, nhà cung cấp thiết bị hỗ trợ phát triển năng lực sản xuất silica trong tương lai.",
+      "t4": "Đối Tác Logistics",
+      "d4": "Các đơn vị giao nhận vận tải, đối tác thương mại & vận chuyển phục vụ thị trường khu vực."
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "subtitle": "Giải đáp nhanh các thắc mắc phổ biến",
+      "q1": "SilViet phục vụ những ngành công nghiệp nào?",
+      "a1": "SilViet hỗ trợ các ngành: Thực phẩm, Thức ăn chăn nuôi, Sản xuất lốp xe, Các sản phẩm cao su, Chất phủ & sơn, Hóa chất nông nghiệp và Vật liệu chuyên dụng.",
+      "q2": "Những sản phẩm nào được bạn cung cấp?",
+      "a2": "Chúng tôi cung cấp Silica kết tủa (Precipitated silica), các vật liệu công nghiệp khác và các giải pháp tìm nguồn cung ứng tùy chỉnh theo nhu cầu của khách hàng.",
+      "q3": "Số lượng đặt hàng thông thường là bao nhiêu?",
+      "a3": "Nguồn cung của chúng tôi rất linh hoạt: từ dạng Pallet (để thử nghiệm) đến Nguyên Container (để cung ứng công nghiệp số lượng lớn).",
+      "q4": "Bạn có thể cung cấp mẫu thử không?",
+      "a4": "Có, mẫu thử có thể được cung cấp tùy thuộc vào lượng hàng sẵn có và yêu cầu ứng dụng cụ thể của bạn.",
+      "q5": "Bạn có hỗ trợ xuất khẩu & logistics không?",
+      "a5": "Có, chúng tôi hỗ trợ: Điều phối xuất khẩu, Sắp xếp vận chuyển, Thủ tục chứng từ và Đóng gói chuyên nghiệp.",
+      "q6": "Thị trường mục tiêu của SilViet là gì?",
+      "a6": "Chúng tôi phục vụ thị trường Đông Nam Á, Đông Á, Nam Á và các thị trường công nghiệp toàn cầu khác.",
+      "q7": "SilViet có trực tiếp sản xuất silica không?",
+      "a7": "Hiện tại, chúng tôi tập trung vào thương mại & chuỗi cung ứng. Đồng thời, chúng tôi cũng đang trong lộ trình phát triển năng lực tự sản xuất silica tại Việt Nam."
+    },
+    "products": {
+    "hero": {
+      "tagline": "Giải Pháp Kỹ Thuật Cao",
+      "title": "Silica Kết Tủa Cao Cấp",
+      "description": "Khám phá danh mục các dòng sản phẩm silica chất lượng cao, được sản xuất tỉ mỉ nhằm đáp ứng các yêu cầu khắt khe của đa dạng ngành công nghiệp.",
+      "requestQuote": "Yêu Cầu Báo Giá",
+      "viewProducts": "Xem Sản Phẩm"
+    },
+    "portfolio": {
+      "title": "Danh Mục Sản Phẩm",
+      "subtitle": "Cung cấp toàn diện các loại vật liệu công nghiệp, sản phẩm thực phẩm và dịch vụ logistics cho khách hàng B2B trên toàn cầu",
+      "silica": {
+        "title": "Silica",
+        "desc": "Các sản phẩm silica chất lượng cao cho ứng dụng công nghiệp"
+      },
+      "meat": {
+        "title": "Thịt Đông Lạnh",
+        "desc": "Sản phẩm thịt đông lạnh với chất lượng cao cấp"
+      },
+      "export": {
+        "title": "Sản Phẩm Xuất Khẩu",
+        "desc": "Đa dạng các mặt hàng nông sản và thủy hải sản xuất khẩu"
+      },
+      "logistics": {
+        "title": "Dịch Vụ Logistics",
+        "desc": "Giải pháp logistics và quản lý chuỗi cung ứng toàn diện"
+      }
+    },
+    "trusted": {
+      "title": "Được Tin Tưởng Bởi Các Doanh Nghiệp Hàng Đầu",
+      "subtitle": "Xây dựng mối quan hệ hợp tác dài hạn trên mọi lĩnh vực",
+      "c1": "Các công ty sản xuất thuộc nhóm Fortune 500",
+      "c2": "Các tập đoàn chế biến thực phẩm hàng đầu",
+      "c3": "Các hãng tàu vận chuyển toàn cầu",
+      "c4": "Các tổ chức thương mại quốc tế",
+      "c5": "Các chuỗi bán lẻ quy mô lớn",
+      "c6": "Các cơ quan thu mua của chính phủ"
+    },
+    "cta": {
+      "title": "Bạn Cần Hỗ Trợ Kỹ Thuật?",
+      "description": "Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ bạn xác định dòng sản phẩm silica phù hợp nhất cho từng ứng dụng công nghiệp cụ thể.",
+      "button": "Yêu Cầu Hỗ Trợ Kỹ Thuật"
+    }
+  },
+  "whyChooseUs": {
+    "title": "Tại Sao Chọn Chúng Tôi",
+    "subtitle": "Xây dựng trên sự mẫn cán, dẫn dắt bởi sự đổi mới",
+    "global": {
+      "title": "Mạng Lưới Toàn Cầu",
+      "desc": "Hoạt động tại hơn 50 quốc gia trên thế giới"
+    },
+    "iso": {
+      "title": "Chứng Nhận ISO",
+      "desc": "Tuân thủ các tiêu chuẩn chất lượng quốc tế"
+    },
+    "expert": {
+      "title": "Đội Ngũ Chuyên Gia",
+      "desc": "Hơn 500 nhân sự chuyên nghiệp trong ngành"
+    },
+    "growth": {
+      "title": "Đối Tác Đồng Hành",
+      "desc": "Hơn 15 năm kiến tạo sự vượt trội"
+    }
+  },
+  "common": {
+    "requestQuote": "Yêu Cầu Báo Giá"
+  },
+  "contact": {
+    "info": {
+      "location": "Địa chỉ",
+      "email": "Email",
+      "phone": "Điện thoại"
+    }
+  },
+  "hero": {
+    "tagline": "Sản xuất · Thương mại · Logistics · Xuất khẩu",
+    "title": "Kết Nối Chuỗi Giá Trị Toàn Cầu",
+    "description": "SilViet kết hợp chuyên môn thương mại, hạ tầng logistics và định hướng phát triển sản xuất silica nhằm đáp ứng nhu cầu công nghiệp ngày càng cao trên thế giới.",
+    "requestQuote": "Yêu Cầu Báo Giá",
+    "exploreSolutions": "Khám Phá Giải Pháp"
+  },
+  "valueProposition": {
+    "title": "Tại Sao Chọn SILVIET",
+    "subtitle": "Đối tác chiến lược về cung ứng và phát triển cho các nhu cầu silica công nghiệp của bạn",
+    "sourcing": {
+      "title": "Cung Ứng Vật Liệu Công Nghiệp",
+      "description": "Mạng lưới cung ứng toàn cầu cho silica và các nguyên liệu thô công nghiệp."
+    },
+    "logistics": {
+      "title": "Hỗ Trợ Logistics Tích Hợp",
+      "description": "Quản lý chuỗi cung ứng toàn diện giúp đảm bảo nguồn cung ổn định và đáng tin cậy."
+    },
+    "understanding": {
+      "title": "Thấu Hiểu Ngành Hàng",
+      "description": "Chuyên môn sâu sắc trong các ứng dụng của silica trên đa dạng lĩnh vực công nghiệp."
+    },
+    "platform": {
+      "title": "Nền Tảng Cung Ứng Linh Hoạt",
+      "description": "Được xây dựng cho mục tiêu tăng trưởng dài hạn, từ thương mại đến sản xuất trong tương lai."
+    }
+  },
+  "industries": {
+    "title": "Nền Tảng Kinh Doanh Của Chúng Tôi",
+    "subtitle": "SilViet cung cấp các dịch vụ tích hợp về thương mại, logistics, xuất khẩu và phát triển sản xuất nhằm hỗ trợ thị trường công nghiệp và toàn cầu.",
+    "trading": "Thương mại Vật liệu Công nghiệp",
+    "trading_desc": "Cung cấp cho thị trường nội địa sản phẩm silica kết tủa và các chất phụ gia hóa chất chuyên dụng để hỗ trợ các ngành sản xuất của Việt Nam.",
+    "logistics": "Dịch vụ Xuất khẩu & Logistics",
+    "logistics_desc": "Cung cấp dịch vụ xuất khẩu, giao nhận vận tải, đặt chỗ container và điều phối logistics nhằm hỗ trợ thương mại quốc tế hiệu quả.",
+    "export": "Xuất khẩu Toàn cầu từ Việt Nam",
+    "export_desc": "Hỗ trợ tìm kiếm nguồn hàng, kiểm soát chất lượng và phân phối quốc tế.",
+    "manufacturing": "Phát triển Sản xuất Silica",
+    "manufacturing_desc": "SilViet đang hướng tới việc thành lập nhà máy sản xuất silica kết tủa nhằm củng cố chuỗi cung ứng khu vực và đáp ứng nhu cầu công nghiệp đang gia tăng."
+  },
+  "supplyChain": {
+    "title": "Hệ Sinh Thái Chuỗi Cung Ứng Của Chúng Tôi",
+    "quality": "Nhà cung cấp Silica",
+    "reliable": "Nhà sản xuất công nghiệp",
+    "compliant": "Đối tác Logistics",
+    "globalBuyers": "Khách hàng Toàn cầu"
+  },
+  "news": {
+    "title": "Góc Nhìn Ngành & Cập Nhật Doanh Nghiệp",
+    "subtitle": "Thông tin chuyên sâu về vật liệu công nghiệp, phát triển logistics và tiến độ kinh doanh của SilViet."
+  },
+  "cta": {
+    "title": "Bạn Đang Tìm Kiếm Một Đối Tác Cung Ứng Hoặc Thương Mại Đáng Tin Cậy?",
+    "description": "SilViet hỗ trợ thương mại vật liệu công nghiệp, dịch vụ logistics, xuất khẩu toàn cầu từ Việt Nam và định hướng phát triển sản xuất silica trong tương lai. Đội ngũ của chúng tôi đã sẵn sàng thảo luận để hỗ trợ doanh nghiệp của bạn.",
+    "button": "Liên Hệ Với Đội Ngũ Của Chúng Tôi"
+  },
+ "services": {
+    "hero": {
+      "tagline": "Giải Pháp Chuyên Nghiệp",
+      "title": "Dịch Vụ Thương Mại, Logistics & Cung Ứng Toàn Cầu",
+      "description": "Không chỉ dừng lại ở việc cung cấp sản phẩm silica, chúng tôi còn mang đến giải pháp logistics toàn diện, quản lý xuất nhập khẩu và đào tạo chuyên nghiệp nhằm tối ưu hóa hoạt động thương mại toàn cầu của bạn."
+    },
+    "overview": {
+      "title": "Danh Mục Dịch Vụ Của Chúng Tôi",
+      "subtitle": "Hỗ trợ toàn diện và tối ưu cho chuỗi cung ứng công nghiệp của bạn."
+    },
+    "cta": {
+      "title": "Bạn Cần Hỗ Trợ Về Thương Mại Hoặc Logistics?",
+      "description": "Dù bạn đang tìm kiếm nguồn cung ứng vật liệu công nghiệp, điều phối logistics hay hỗ trợ xuất khẩu, đội ngũ chuyên gia của chúng tôi luôn sẵn sàng đồng hành cùng doanh nghiệp bạn.",
+      "button": "Liên Hệ Với Đội Ngũ Của Chúng Tôi"
+    }
+  },"market": {
+    "hero": {
+      "tagline": "Thị Trường Toàn Cầu & Mạng Lưới Xuất Khẩu",
+      "title": "Thị Trường Toàn Cầu & Mạng Lưới Xuất Khẩu",
+      "description": "Đặt trụ sở tại Việt Nam, SilViet kết nối các hoạt động thương mại công nghiệp, logistics và xuất khẩu để phục vụ thị trường khu vực và quốc tế."
+    },
+    "overview": {
+      "title": "Tổng Quan Thị Trường",
+      "subtitle": "Kết nối các sản phẩm và nguyên liệu công nghiệp Việt Nam với thị trường toàn cầu."
+    },
+    "logistics": {
+      "title": "Mạng Lưới Hậu Cần Tích Hợp",
+      "subtitle": "Hỗ trợ logistics và xuất khẩu toàn diện, kết nối các nhà cung cấp Việt Nam với các thị trường quốc tế."
+    },
+    "hub": {
+      "title": "Tại sao Việt Nam là trung tâm chiến lược cho chuỗi cung ứng toàn cầu",
+      "learnMore": "Tìm hiểu thêm →",
+      "location": {
+        "title": "Vị trí Trung tâm",
+        "desc": "Tiếp cận trực tiếp với các tuyến vận tải biển chính ở Biển Đông."
+      },
+      "fta": {
+        "title": "Hiệp định Thương mại",
+        "desc": "Việt Nam được hưởng lợi từ nhiều FTA (RCEP, CPTPP, EVFTA), tạo lợi thế tiếp cận thị trường toàn cầu."
+      },
+      "infra": {
+        "title": "Hạ tầng Cảng",
+        "desc": "Hệ thống cảng nước sâu hiện đại hỗ trợ vận chuyển hàng hóa quy mô lớn và hậu cần xuất khẩu hiệu quả."
+      },
+      "ecosystem": {
+        "title": "Hệ sinh thái Công nghiệp",
+        "desc": "Lĩnh vực sản xuất đang phát triển nhanh chóng tạo nhu cầu trong nước và hỗ trợ tăng trưởng xuất khẩu."
+      },
+      "stats": {
+        "coastline": "km bờ biển",
+        "fta": "Hiệp định FTA",
+        "ports": "Cảng biển lớn",
+        "export": "Quốc gia xuất khẩu"
+      }
+    }
+  },
+      "vn": {
+        "tagline": "Nội Lực Vững Vàng",
+        "title": "Thị Trường Việt Nam",
+        "subTitle": "Lợi Thế Cạnh Tranh Cốt Lõi",
+        "d1": "Với trung tâm điều hành tại Thành phố Hồ Chí Minh, SILVIET phục vụ toàn diện cho các ngành công nghiệp đang mở rộng mạnh mẽ tại Việt Nam. Chúng tôi cung ứng trực tiếp nguồn nguyên liệu cao cấp đến các nhà máy trên toàn quốc.",
+        "d2": "Chuỗi cung ứng nội địa của chúng tôi tập trung vào các ngành công nghiệp trọng điểm bao gồm sản xuất lốp xe hiệu suất cao, cao su kỹ thuật, hóa chất nông nghiệp và chất phủ chuyên dụng.",
+        "adv1": "Hệ thống kho bãi chiến lược gần các khu vực cảng lớn.",
+        "adv2": "Khả năng giao hàng vừa kịp lúc (Just-in-time) cho các nhà máy nội địa.",
+        "adv3": "Hỗ trợ kỹ thuật nội địa hóa và kích thước đóng gói theo yêu cầu."
+      },
+      "global": {
+        "title": "Khu Vực Xuất Khẩu Quốc Tế",
+        "subtitle": "Thu hẹp khoảng cách giữa nguồn cung ứng tin cậy và các nhà sản xuất toàn cầu."
+      },
+      "regions": {
+        "sea": {
+          "title": "Đông Nam Á & Đông Á",
+          "description": "Tận dụng các hiệp định thương mại tự do trong khu vực, chúng tôi mang lại mức thuế suất ưu đãi mang tính cạnh tranh và tối ưu hóa các tuyến đường biển đến các điểm đến trọng điểm bao gồm Thái Lan, Indonesia, Malaysia, Nhật Bản và Hàn Quốc."
+        },
+        "global": {
+          "title": "Thị Trường Toàn Cầu",
+          "description": "Mở rộng dấu ấn tại Nam Á, Châu Âu và các thị trường chuyên dụng quốc tế. SILVIET đáp ứng nghiêm ngặt các tiêu chuẩn quản lý, an toàn và hóa chất toàn cầu theo yêu cầu của các doanh nghiệp nước ngoài."
+        }
+      },
+      "capabilities": {
+        "title": "Năng Lực Xuất Khẩu & Chuỗi Cung Ứng",
+        "subtitle": "Cách chúng tôi duy trì quy trình vận chuyển đạt chuẩn cho các đối tác quốc tế."
+      },
+      "cap": {
+        "t1": "Đóng Gói An Toàn",
+        "d1": "Sử dụng bao giấy nhiều lớp chịu lực cao, bao tấn (FIBC), và đóng pallet kiên cố được tối ưu hóa riêng cho vận chuyển đường biển.",
+        "t2": "Tuân Thủ Toàn Diện",
+        "d2": "Cung cấp đầy đủ Phiếu kiểm nghiệm chất lượng (COA), Bảng thông số kỹ thuật (TDS), Phiếu an toàn hóa chất (SDS) và bộ chứng từ thông quan.",
+        "t3": "Linh Hoạt Điều Khoản Thương Mại",
+        "d3": "Hỗ trợ các điều khoản thương mại quốc tế tiêu chuẩn bao gồm FOB, CFR, CIF và cả phương thức giao hàng tận nơi nội địa.",
+        "t4": "Mạng Lưới Vận Chuyển Uy Tín",
+        "d4": "Liên minh chiến lược với các hãng tàu quốc tế lớn và đơn vị forwarder uy tín nhằm giảm thiểu chậm trễ và tối ưu chi phí vận chuyển."
+      }
+    }
+

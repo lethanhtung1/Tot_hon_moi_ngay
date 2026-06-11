@@ -1,0 +1,363 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "market": "Market & Export",
+    "news": "News",
+    "contact": "Contact",
+    "languageSelection": "Language selection",
+    "getInTouch": "Get in Touch"
+  },
+  "about": {
+    "hero": {
+      "tagline": "About SILVIET",
+      "title": "Building Industrial Capacity for the Future",
+      "description": "A strategic partner committed to advancing precipitated silica solutions in Southeast Asia through quality, innovation, and long-term collaboration."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the trusted strategic partner for premium precipitated silica in Southeast Asia, contributing to sustainable industrial development across the region."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide consistent, high-quality silicon dioxide solutions while building local industrial capacity and fostering long-term partnerships with manufacturers worldwide."
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "From strategic vision to industrial reality",
+      "p1": "SILVIET was founded with a clear purpose: to address the growing demand for quality precipitated silica in Southeast Asia while building sustainable local industrial capacity.",
+      "p2": "Vietnam's strategic location, robust logistics infrastructure, and access to raw materials make it an ideal hub for silica production and distribution. We recognized this opportunity and committed to a methodical, phased approach to development.",
+      "p3": "Our approach prioritizes long-term value over short-term gains. We believe in building genuine partnerships with our clients, understanding their needs, and growing together as the industry evolves."
+    },
+    "roadmap": {
+      "title": "Development Roadmap",
+      "subtitle": "A phased approach to sustainable growth",
+      "phase1": {
+        "name": "Phase 1: Foundation (0-18 months)",
+        "title": "Commercial & Logistics Development",
+        "description": "Establishing commercial operations, building logistics networks, developing client relationships, and accumulating market data. Focus on becoming a reliable trading and sourcing partner."
+      },
+      "phase2": {
+        "name": "Phase 2: Development (18-36 months)",
+        "title": "Pilot Production & Technology",
+        "description": "Initiating pilot production, testing product formulations, developing technical expertise, and establishing quality control systems. Building partnerships with technology providers."
+      },
+      "phase3": {
+        "name": "Phase 3 — Production Expansion (Years 3–6)",
+        "title": "Enhancing Capacity and Product Diversification",
+        "description": "Develop silica production capacity in Vietnam, reduce dependence on imports, expand product portfolio, and serve broader industrial applications."
+      },
+      "phase4": {
+        "name": "Phase 4 — Regional Industrial Platform",
+        "title": "Integrated Chemical and Materials Supply Network",
+        "description": "Expand production capacity, scale trading & logistics, build a comprehensive supply platform, and serve domestic & global markets."
+      }
+    },
+    "values": {
+      "title": "SILVIET Core Values",
+      "subtitle": "The fundamental principles that drive our culture and operations",
+      "fiveTs": {
+        "tin": {
+          "label": "NHÂN",
+          "desc": "Kindness"
+        },
+        "tam": {
+          "label": "NGHĨA",
+          "desc": "Accountability"
+        },
+        "tai": {
+          "label": "LỄ",
+          "desc": "Courtesy & Moral Rightness"
+        },
+        "tri": {
+          "label": "TRÍ",
+          "desc": "Listening & Understanding"
+        },
+        "tam2": {
+          "label": "TÍN",
+          "desc": "Credibility"
+        }
+      },
+      "highlights": {
+        "efficiency": {
+          "title": "EFFICIENCY",
+          "desc": "Scaling Success & Eliminating Waste"
+        },
+        "culture": {
+          "title": "SILVIET CULTURE",
+          "desc": "Honesty · Professionalism · Unity · Creativity"
+        }
+      }
+    },
+    "cta": {
+      "title": "Partner With SILVIET",
+      "description": "SilViet is building an integrated platform combining industrial trading, logistics services, global export, and future silica manufacturing.",
+      "button": "Contact Us"
+    }
+  },
+  "products": {
+    "hero": {
+      "tagline": "Engineered Solutions",
+      "title": "Premium Precipitated Silica",
+      "description": "Discover our range of high-performance silica grades, meticulously manufactured to meet the demanding requirements of various industries.",
+      "requestQuote": "Request Quote",
+      "viewProducts": "View Products"
+    },
+    "portfolio": {
+      "title": "Our Product Portfolio",
+      "subtitle": "Comprehensive range of industrial materials, food products, and logistics services for B2B clients worldwide",
+      "silica": {
+        "title": "Silica",
+        "desc": "High-quality silica products for industrial applications"
+      },
+      "meat": {
+        "title": "Frozen Meat",
+        "desc": "Premium quality frozen meat products"
+      },
+      "export": {
+        "title": "Export Products",
+        "desc": "Wide range of agricultural and seafood exports"
+      },
+      "logistics": {
+        "title": "Logistics Services",
+        "desc": "Comprehensive logistics and supply chain solutions"
+      }
+    },
+    "trusted": {
+      "title": "Trusted by Global Leaders",
+      "subtitle": "Building long-term partnerships across industries",
+      "c1": "Fortune 500 Manufacturing Companies",
+      "c2": "Leading Food Processing Corporations",
+      "c3": "Global Shipping Lines",
+      "c4": "International Trading Houses",
+      "c5": "Major Retail Chains",
+      "c6": "Government Procurement Agencies"
+    },
+    "cta": {
+      "title": "Need Technical Support?",
+      "description": "Our team can help you identify suitable silica grades for your industrial application.",
+      "button": "Request Technical Support"
+    }
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Built on excellence, driven by innovation",
+    "global": {
+      "title": "Global Network",
+      "desc": "Operating in 50+ countries worldwide"
+    },
+    "iso": {
+      "title": "ISO Certified",
+      "desc": "International quality standards"
+    },
+    "expert": {
+      "title": "Expert Team",
+      "desc": "500+ industry professionals"
+    },
+    "growth": {
+      "title": "Growth Partner",
+      "desc": "15+ years of excellence"
+    }
+  },
+  "common": {
+    "requestQuote": "Request Quote"
+  },
+  "hero": {
+    "tagline": "Manufacturing · Trading · Logistics · Export",
+    "title": "Bridging Global Value Chains",
+    "description": "SilViet combines trading expertise, logistics infrastructure, and silica manufacturing development to support growing industrial demand in the world.",
+    "requestQuote": "Request a Quote",
+    "exploreSolutions": "Explore Solutions"
+  },
+  "valueProposition": {
+    "title": "Why Choose SILVIET",
+    "subtitle": "Strategic sourcing and development partnership for your industrial silica needs",
+    "sourcing": {
+      "title": "Industrial Material Sourcing",
+      "description": "Global sourcing network for silica and industrial raw materials."
+    },
+    "logistics": {
+      "title": "Integrated Logistics Support",
+      "description": "End-to-end supply chain management for stable and reliable supply."
+    },
+    "understanding": {
+      "title": "Industry Understanding",
+      "description": "Expertise in silica applications across various industrial sectors."
+    },
+    "platform": {
+      "title": "Scalable Supply Platform",
+      "description": "Built for long-term growth from trading to future manufacturing."
+    }
+  },
+  "industries": {
+    "title": "Our Business Platform",
+    "subtitle": "SilViet provides integrated trading, logistics, export, and manufacturing development services supporting industrial and global markets.",
+    "trading": "Industrial Materials Trading",
+    "trading_desc": "Supplying the domestic market with precipitated silica and specialty chemical additives to support Vietnam’s manufacturing industries.",
+    "logistics": "Export & Logistics Services",
+    "logistics_desc": "Providing export services, freight forwarding, container booking, and logistics coordination to support efficient international trade.",
+    "export": "Global Export from Vietnam",
+    "export_desc": "Supporting sourcing, quality control, and international distribution.",
+    "manufacturing": "Silica Manufacturing Development",
+    "manufacturing_desc": "SilViet is working toward establishing a precipitated silica production facility to strengthen regional supply chains and support growing industrial demand."
+  },
+  "supplyChain": {
+    "title": "Our Supply Chain Ecosystem",
+    "quality": "Silica Suppliers",
+    "reliable": "Industrial Manufacturers",
+    "compliant": "Logistics Partners",
+    "globalBuyers": "Global Buyers"
+  },
+  "news": {
+    "title": "Industry Insights & Company Updates",
+    "subtitle": "Insights on industrial materials, logistics developments, and SilViet business progress."
+  },
+  "cta": {
+    "title": "Looking for a Reliable Supply or Trade Partner?",
+    "description": "SilViet supports industrial material trading, logistics services, global export from Vietnam, and future silica manufacturing development. Our team is ready to discuss how we can support your business.",
+    "button": "Contact Our Team"
+  },
+  "services": {
+    "hero": {
+      "tagline": "Professional Solutions",
+      "title": "Trading, Logistics & Global Supply Services",
+      "description": "Beyond silica supply, we provide comprehensive logistics, import-export management, and professional training to support your global trade operations."
+    },
+    "overview": {
+      "title": "Our Service Portfolio",
+      "subtitle": "Comprehensive support for your industrial supply chain."
+    },
+    "cta": {
+      "title": "Need Trade or Logistics Support?",
+      "description": "Whether you need industrial material sourcing, logistics coordination, or export support, our team is ready to assist your business.",
+      "button": "Contact Our Team"
+    }
+  },
+  "contact": {
+    "info": {
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone"
+    },"market": {
+    "hero": {
+      "tagline": "Global Markets & Export Network",
+      "title": "Global Markets & Export Network",
+      "description": "Based in Vietnam, SilViet connects industrial trading, logistics, and export operations to serve regional and global markets."
+    },
+    "overview": {
+      "title": "Market Overview",
+      "subtitle": "Connecting Vietnamese products and industrial materials with global markets."
+    },
+    "logistics": {
+      "title": "Integrated Logistics Network",
+      "subtitle": "Integrated logistics and export support connecting Vietnamese suppliers with global markets."
+    },
+    "hub": {
+      "title": "Why Vietnam is a strategic hub for global supply chains",
+      "learnMore": "Learn More →",
+      "location": {
+        "title": "Central Location",
+        "desc": "Direct access to major shipping lanes in the South China Sea."
+      },
+      "fta": {
+        "title": "Trade Agreements",
+        "desc": "Vietnam benefits from numerous FTAs (RCEP, CPTPP, EVFTA), creating advantages in global market access."
+      },
+      "infra": {
+        "title": "Port Infrastructure",
+        "desc": "Modern deep-water port systems support large-scale cargo handling and efficient export logistics."
+      },
+      "ecosystem": {
+        "title": "Industrial Ecosystem",
+        "desc": "A rapidly growing manufacturing sector drives domestic demand and supports export growth."
+      },
+      "stats": {
+        "coastline": "km of coastline",
+        "fta": "FTAs Signed",
+        "ports": "Major Sea Ports",
+        "export": "Export Economy Rank"
+      }
+    }
+  },
+  "cta": {
+    "title": "Looking for a Reliable Supply or Trade Partner?",
+    "description": "SilViet supports industrial material trading, logistics services, global export from Vietnam, and future silica manufacturing development.",
+    "button": "Contact Our Team"
+  },
+  "contact": {
+    "info": {
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "footer": {
+    "brand": "SILVIET",
+    "slogan": "Tốt Hơn Mỗi Ngày",
+    "description": "",
+    "contact": {
+      "address": "193 Nguyen Xi Street, Binh Thanh Ward",
+      "email": "info@silviet.com",
+      "phone": "+84 938 969 238"
+    },
+    "company": "COMPANY",
+    "aboutUs": "About SilViet",
+    "ourPlatform": "Our Platform",
+    "newsUpdates": "News & Insights",
+    "contactUs": "Contact",
+    "products": "PRODUCTS & SOLUTIONS",
+    "materialsTrading": "Industrial Materials Trading",
+    "precipitatedSilica": "Silica Products",
+    "exportServices": "Export Services",
+    "logistics": "Logistics Solutions",
+    "markets": "MARKETS",
+    "vietnamMarket": "Vietnam Market",
+    "southeastAsia": "Southeast Asia",
+    "exportRegions": "Global Export",
+    "partnership": "Partnership Opportunities",
+    "copyright": "© 2026 SILVIET. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+      "vn": {
+        "tagline": "Domestic Strength",
+        "title": "Vietnam Market",
+        "subTitle": "Key Local Advantages",
+        "d1": "As a core hub based in Ho Chi Minh City, SILVIET comprehensively serves the rapidly expanding industrial sectors in Vietnam. We supply premium raw materials directly to manufacturing hubs nationwide.",
+        "d2": "Our domestic supply chain focuses on key industries including high-performance tire manufacturing, technical rubber, agricultural chemicals, and specialty coatings.",
+        "adv1": "Strategic warehousing in major port areas.",
+        "adv2": "Just-in-time delivery capabilities for domestic factories.",
+        "adv3": "Localized technical support and custom packaging sizes."
+      },
+      "global": {
+        "title": "International Export Regions",
+        "subtitle": "Bridging the gap between reliable sourcing and global manufacturers."
+      },
+      "regions": {
+        "sea": {
+          "title": "Southeast Asia & East Asia",
+          "description": "Leveraging regional free trade agreements, we offer competitive trade tariffs and optimized maritime routes to major destinations including Thailand, Indonesia, Malaysia, Japan, and South Korea."
+        },
+        "global": {
+          "title": "Global Markets",
+          "description": "Expanding our footprint to South Asia, Europe, and international specialty markets. SILVIET strictly satisfies global regulatory, safety, and chemical material standards requested by overseas enterprises."
+        }
+      },
+      "capabilities": {
+        "title": "Export & Supply Chain Capabilities",
+        "subtitle": "How we maintain standard-compliant delivery for international partners."
+      },
+      "cap": {
+        "t1": "Secure Packaging",
+        "d1": "Heavy-duty multi-layer paper bags, jumbo bags (FIBC), and customized palletized packaging optimized for sea freight.",
+        "t2": "Full Compliance",
+        "d2": "Comprehensive provision of Certificate of Analysis (COA), Technical Data Sheets (TDS), Safety Data Sheets (SDS), and custom clearance documents.",
+        "t3": "Incoterms Flexibility",
+        "d3": "Supporting standardized global trade terms including FOB, CFR, CIF, and door-to-door domestic delivery parameters.",
+        "t4": "Trusted Carriers",
+        "d4": "Strategic alliances with world-class shipping lines and local freight forwarders to minimize delays and optimize transit costs."
+      }
+    }
+}

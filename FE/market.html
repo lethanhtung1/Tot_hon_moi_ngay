@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="SILVIET's export markets and logistics capabilities - connecting Vietnam to industrial markets across Southeast Asia and beyond.">
+
+    <title>Market & Export - SILVIET | Precipitated Silica</title>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+  <link rel="stylesheet" href="./css/Index.css">
+</head>
+
+<body>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link" data-i18n="nav.skipToMain">Skip to main content</a>
+
+    <!-- Navigation -->
+   <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="navbar-brand" aria-label="SILVIET home">
+            <img src="./image/silviet-logo.png" alt="SILVIET Logo" class="navbar-logo">
+        </a>
+
+
+        <ul class="navbar-nav">
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="Aboutus.html" data-i18n="nav.about">About Us</a></li>
+            <li><a href="Product.html" data-i18n="nav.products">Products</a></li>
+            <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+            <li><a href="market.html" class="active" data-i18n="nav.market">Market & Export</a></li>
+            <li><a href="news.html" data-i18n="nav.news">News</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+            <!-- Mobile Language Switcher -->
+            <li class="mobile-lang-switcher">
+                <div class="lang-switcher" role="group" aria-label="Language selection">
+                    <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+                    <button class="lang-btn" data-lang="vi" aria-pressed="false">VI</button>
+                </div>
+            </li>
+        </ul>
+
+        <div class="navbar-cta">
+            <!-- Language Switcher -->
+            <div class="lang-switcher" role="group" data-i18n-aria="nav.languageSelection">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="vi">VI</button>
+            </div>
+            <a href="contact.html" class="btn btn-primary" data-i18n="nav.getInTouch">Get in Touch</a>
+        </div>
+
+        <button class="navbar-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+    </nav>
+
+    <style>
+        /* Market Specific Styles */
+        .metrics-section {
+            background-color: var(--color-background-alt);
+            padding: 4rem 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .metric-item {
+            background: white;
+            padding: 2.5rem 1.5rem;
+            border: 1px solid var(--color-border);
+            border-radius: 16px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .metric-item::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 100px;
+            height: 100px;
+            background: #F0F9FF;
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .metric-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .metric-icon {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 1.5rem;
+            width: 80px;
+            height: 80px;
+        }
+        
+        .metric-icon svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .metric-value {
+            position: relative;
+            z-index: 1;
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-label {
+            position: relative;
+            z-index: 1;
+            font-size: 0.95rem;
+            color: var(--color-text-light);
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .hub-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .hub-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border: 1px solid var(--color-border);
+            border-radius: 16px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hub-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--color-accent);
+        }
+
+        .hub-icon-wrapper {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: transparent;
+        }
+        
+        .hub-icon-wrapper svg, .hub-icon-wrapper img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .hub-title {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .hub-desc {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .hub-btn {
+            background: var(--color-accent);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .hub-btn:hover {
+            background: var(--color-accent-hover);
+            color: white;
+        }
+
+        .hub-stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-top: 3rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--color-border);
+        }
+
+        .hub-stat-item {
+            text-align: center;
+        }
+
+        .hub-stat-value {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--color-accent);
+            margin-bottom: 0.5rem;
+        }
+
+        .hub-stat-label {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            font-weight: 500;
+        }
+
+        /* Logistics Grid */
+        .logistics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .logistics-card {
+            background: white;
+            border-radius: 16px;
+            border: 1px solid var(--color-border);
+            padding: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .logistics-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .logistics-icon {
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            background: #E0F2FE;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logistics-icon svg {
+            width: 32px;
+            height: 32px;
+            color: var(--color-accent);
+        }
+        
+        .logistics-content {
+            flex-grow: 1;
+        }
+        
+        .logistics-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .logistics-desc {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.25rem;
+        }
+        
+        .logistics-highlight {
+            display: inline-block;
+            background: #E0F2FE;
+            color: var(--color-accent);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 992px) {
+            .logistics-grid {
+                grid-template-columns: 1fr;
+                max-width: 600px;
+            }
+            .logistics-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+        
+        /* Market overview cards */
+        .market-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .market-card {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid var(--color-border);
+            border-radius: 16px;
+            padding: 1.75rem;
+            box-shadow: var(--shadow-sm);
+            backdrop-filter: blur(6px);
+        }
+
+        .market-card h3 {
+            margin-bottom: 0.75rem;
+            font-size: 1.25rem;
+        }
+
+        .market-card p {
+            color: var(--color-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .market-card ul {
+            padding-left: 1.2rem;
+            color: var(--color-secondary);
+            line-height: 1.6;
+        }
+    </style>
+
+    <main id="main-content">
+        <!-- Market Hero -->
+        <section class="hero hero-with-banner market-hero"
+            style="min-height: auto; padding-top: calc(var(--navbar-height) + 6rem); padding-bottom: 4rem;">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-tagline" data-i18n="market.hero.tagline">Global Markets & Export Network</span>
+                    <h1 class="hero-title" data-i18n="market.hero.title">Global Markets & Export Network</h1>
+                    <p class="hero-description" data-i18n="market.hero.description">
+                        Based in Vietnam, SilViet connects industrial trading, logistics, and export operations to serve
+                        regional and global markets.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Overview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="market.overview.title">Market Overview</h2>
+                    <p data-i18n="market.overview.subtitle">Connecting Vietnamese products and industrial materials with
+                        global markets.</p>
+                </div>
+                <div id="market-overview" class="market-grid reveal">
+                    <!-- Region cards will be rendered here -->
+                    <div class="loading">Đang tải dữ liệu...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Metrics Infographic -->
+        <section class="metrics-section">
+            <div class="container">
+                <div id="metrics-container" class="metrics-grid">
+                    <!-- Metrics will be rendered here -->
+                    <div class="loading">Loading data...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logistics Network -->
+        <section class="section bg-light" id="logistics">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="market.logistics.title">Integrated Logistics Network</h2>
+                    <p data-i18n="market.logistics.subtitle">Integrated logistics and export support connecting
+                        Vietnamese suppliers with global markets.</p>
+                </div>
+                <div id="logistics-container" class="logistics-grid">
+                    <!-- Logistics cards will be rendered here -->
+                    <div class="loading">Loading network...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hub Advantage -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="market.hub.title">Why Vietnam is a strategic hub for global supply chains</h2>
+                </div>
+                <div class="hub-grid">
+                    <!-- Central Location -->
+                    <div class="hub-card reveal">
+                        <div class="hub-icon-wrapper">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="40" fill="#0F172A"/>
+                                <circle cx="50" cy="50" r="38" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 4"/>
+                                <path d="M50 20 L55 45 L80 50 L55 55 L50 80 L45 55 L20 50 L45 45 Z" fill="#0369A1"/>
+                                <path d="M50 20 L55 45 L50 50 L45 45 Z" fill="#EF4444"/>
+                                <circle cx="50" cy="50" r="6" fill="white"/>
+                                <circle cx="50" cy="50" r="2" fill="#EF4444"/>
+                                <text x="50" y="15" fill="white" font-size="8" text-anchor="middle" font-family="sans-serif">N</text>
+                                <text x="50" y="90" fill="white" font-size="8" text-anchor="middle" font-family="sans-serif">S</text>
+                                <text x="10" y="53" fill="white" font-size="8" text-anchor="middle" font-family="sans-serif">W</text>
+                                <text x="90" y="53" fill="white" font-size="8" text-anchor="middle" font-family="sans-serif">E</text>
+                            </svg>
+                        </div>
+                        <h3 class="hub-title" data-i18n="market.hub.location.title">Vị trí Trung tâm</h3>
+                        <p class="hub-desc" data-i18n="market.hub.location.desc">Tiếp cận trực tiếp với các tuyến vận tải biển chính ở Biển Đông.</p>
+                        <a href="#" class="hub-btn" data-i18n="market.hub.learnMore">Tìm hiểu thêm &rarr;</a>
+                    </div>
+                    <!-- Trade Agreements -->
+                    <div class="hub-card reveal" style="animation-delay: 0.1s;">
+                        <div class="hub-icon-wrapper">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="40" fill="#1E293B"/>
+                                <rect x="35" y="30" width="30" height="40" rx="2" fill="#E2E8F0"/>
+                                <line x1="42" y1="38" x2="58" y2="38" stroke="#94A3B8" stroke-width="2"/>
+                                <line x1="42" y1="44" x2="58" y2="44" stroke="#94A3B8" stroke-width="2"/>
+                                <line x1="42" y1="50" x2="50" y2="50" stroke="#94A3B8" stroke-width="2"/>
+                                <circle cx="35" cy="65" r="12" fill="#0369A1"/>
+                                <circle cx="65" cy="65" r="12" fill="#0369A1"/>
+                                <path d="M30 65 L35 70 L42 60" stroke="white" stroke-width="2" fill="none"/>
+                                <path d="M60 65 L65 70 L72 60" stroke="white" stroke-width="2" fill="none"/>
+                                <circle cx="25" cy="40" r="2" fill="#FCD34D"/>
+                                <circle cx="75" cy="35" r="2" fill="#FCD34D"/>
+                                <circle cx="68" cy="25" r="1.5" fill="#FCD34D"/>
+                                <circle cx="32" cy="28" r="1.5" fill="#FCD34D"/>
+                            </svg>
+                        </div>
+                        <h3 class="hub-title" data-i18n="market.hub.fta.title">Hiệp định Thương mại</h3>
+                        <p class="hub-desc" data-i18n="market.hub.fta.desc">Việt Nam được hưởng lợi từ nhiều FTA (RCEP, CPTPP, EVFTA), tạo lợi thế tiếp cận thị trường toàn cầu.</p>
+                        <a href="#" class="hub-btn" data-i18n="market.hub.learnMore">Tìm hiểu thêm &rarr;</a>
+                    </div>
+                    <!-- Port Infrastructure -->
+                    <div class="hub-card reveal" style="animation-delay: 0.2s;">
+                        <div class="hub-icon-wrapper">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="40" fill="#0F766E"/>
+                                <rect x="25" y="45" width="50" height="20" fill="#0284C7"/>
+                                <path d="M35 45 L35 25 L45 25" stroke="white" stroke-width="2" fill="none"/>
+                                <path d="M65 45 L65 25 L55 25" stroke="white" stroke-width="2" fill="none"/>
+                                <rect x="40" y="38" width="10" height="7" fill="#EF4444"/>
+                                <rect x="50" y="38" width="10" height="7" fill="#F59E0B"/>
+                                <path d="M20 60 L80 60 L75 75 L25 75 Z" fill="#475569"/>
+                                <rect x="30" y="55" width="40" height="5" fill="#E2E8F0"/>
+                            </svg>
+                        </div>
+                        <h3 class="hub-title" data-i18n="market.hub.infra.title">Hạ tầng Cảng</h3>
+                        <p class="hub-desc" data-i18n="market.hub.infra.desc">Hệ thống cảng nước sâu hiện đại hỗ trợ vận chuyển hàng hóa quy mô lớn và hậu cần xuất khẩu hiệu quả.</p>
+                        <a href="#" class="hub-btn" data-i18n="market.hub.learnMore">Tìm hiểu thêm &rarr;</a>
+                    </div>
+                    <!-- Industrial Ecosystem -->
+                    <div class="hub-card reveal" style="animation-delay: 0.3s;">
+                        <div class="hub-icon-wrapper">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="40" fill="#166534"/>
+                                <path d="M30 70 L30 40 L45 40 L45 30 L60 30 L60 50 L75 50 L75 70 Z" fill="#22C55E"/>
+                                <path d="M30 40 L35 35 L40 40 Z" fill="#15803D"/>
+                                <path d="M45 30 L50 25 L55 30 Z" fill="#15803D"/>
+                                <path d="M60 50 L65 45 L70 50 Z" fill="#15803D"/>
+                                <rect x="35" y="48" width="4" height="4" fill="#E2E8F0"/>
+                                <rect x="35" y="58" width="4" height="4" fill="#E2E8F0"/>
+                                <rect x="50" y="38" width="4" height="4" fill="#E2E8F0"/>
+                                <rect x="50" y="48" width="4" height="4" fill="#E2E8F0"/>
+                                <rect x="50" y="58" width="4" height="4" fill="#E2E8F0"/>
+                                <rect x="65" y="58" width="4" height="4" fill="#E2E8F0"/>
+                                <circle cx="35" cy="25" r="6" stroke="white" stroke-width="1.5" stroke-dasharray="2 1" fill="none"/>
+                                <circle cx="65" cy="35" r="8" stroke="white" stroke-width="1.5" stroke-dasharray="3 2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="hub-title" data-i18n="market.hub.ecosystem.title">Hệ sinh thái Công nghiệp</h3>
+                        <p class="hub-desc" data-i18n="market.hub.ecosystem.desc">Lĩnh vực sản xuất đang phát triển nhanh chóng tạo nhu cầu trong nước và hỗ trợ tăng trưởng xuất khẩu.</p>
+                        <a href="#" class="hub-btn" data-i18n="market.hub.learnMore">Tìm hiểu thêm &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Hub Stats Bar -->
+                <div class="hub-stats-bar reveal" style="animation-delay: 0.4s;">
+                    <div class="hub-stat-item">
+                        <div class="hub-stat-value">3,500+</div>
+                        <div class="hub-stat-label" data-i18n="market.hub.stats.coastline">km bờ biển</div>
+                    </div>
+                    <div class="hub-stat-item">
+                        <div class="hub-stat-value">17+</div>
+                        <div class="hub-stat-label" data-i18n="market.hub.stats.fta">Hiệp định FTA</div>
+                    </div>
+                    <div class="hub-stat-item">
+                        <div class="hub-stat-value">50+</div>
+                        <div class="hub-stat-label" data-i18n="market.hub.stats.ports">Cảng biển lớn</div>
+                    </div>
+                    <div class="hub-stat-item">
+                        <div class="hub-stat-value">Top 20</div>
+                        <div class="hub-stat-label" data-i18n="market.hub.stats.export">Quốc gia xuất khẩu</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partnership CTA -->
+        <section class="cta-section bg-secondary text-white">
+            <div class="container text-center">
+                <h2 data-i18n="cta.title">Looking for a Reliable Supply or Trade Partner?</h2>
+                <p data-i18n="cta.description">
+                    SilViet supports industrial material trading, logistics services, global export from Vietnam, and
+                    future silica manufacturing development.
+                </p>
+                <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="cta.button">Contact Our Team</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand" data-i18n="footer.brand">SILVIET</div>
+                    <div class="footer-slogan" data-i18n="footer.slogan">Tốt Hơn Mỗi Ngày</div>
+                    <p class="footer-description" data-i18n="footer.description"></p>
+                    <div class="footer-contact-info mt-md">
+                        <p><strong data-i18n="contact.info.location">Location</strong>: <span data-i18n="footer.contact.address">193 Nguyen Xi Street, Binh Thanh Ward</span></p>
+                        <p><strong data-i18n="contact.info.email">Email</strong>: <span data-i18n="footer.contact.email">info@silviet.com</span></p>
+                        <p><strong data-i18n="contact.info.phone">Phone</strong>: <span data-i18n="footer.contact.phone">+84 938 969 238</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-title" data-i18n="footer.company">COMPANY</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" data-i18n="footer.aboutUs">About SilViet</a></li>
+                        <li><a href="about.html#roadmap" data-i18n="footer.ourPlatform">Our Platform</a></li>
+                        <li><a href="news.html" data-i18n="footer.newsUpdates">News & Insights</a></li>
+                        <li><a href="contact.html" data-i18n="footer.contactUs">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title" data-i18n="footer.products">PRODUCTS & SOLUTIONS</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#trading" data-i18n="footer.materialsTrading">Industrial Materials Trading</a></li>
+                        <li><a href="products.html" data-i18n="footer.precipitatedSilica">Silica Products</a></li>
+                        <li><a href="services.html#export" data-i18n="footer.exportServices">Export Services</a></li>
+                        <li><a href="services.html#logistics" data-i18n="footer.logistics">Logistics Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title" data-i18n="footer.markets">MARKETS</h4>
+                    <ul class="footer-links">
+                        <li><a href="market.html" data-i18n="footer.vietnamMarket">Vietnam Market</a></li>
+                        <li><a href="market.html#asia" data-i18n="footer.southeastAsia">Southeast Asia</a></li>
+                        <li><a href="market.html#global" data-i18n="footer.exportRegions">Global Export</a></li>
+                        <li><a href="contact.html" data-i18n="footer.partnership">Partnership Opportunities</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 SILVIET. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" data-i18n="footer.privacyPolicy">Privacy Policy</a>
+                    <a href="#" data-i18n="footer.termsOfService">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact FAB -->
+    <div class="fab-container">
+        <div class="fab-menu">
+            <a href="https://zalo.me/0367902386" class="fab-item" target="_blank" rel="noopener noreferrer">
+                <span class="fab-label">Zalo: 0367902386</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M8 12h8m-4-4v8"></path>
+                </svg>
+            </a>
+            <a href="https://wa.me/84367902386" class="fab-item" target="_blank" rel="noopener noreferrer">
+                <span class="fab-label">WhatsApp: 0367902386</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-10.4 8.38 8.38 0 0 1 3.8.9L21 4.5Z">
+                    </path>
+                </svg>
+            </a>
+            <a href="tel:+84938969238" class="fab-item">
+                <span class="fab-label">+84 938 969 238</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <button class="fab-main-btn" aria-label="Contact options">
+            <svg class="fab-icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                <path
+                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
+                </path>
+            </svg>
+            <svg class="fab-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/legacy/market-data.js"></script>
+    <script src="js/market.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
