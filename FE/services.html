@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <div class="page-wrapper"></div>
     <!-- Skip Link -->
     <a href="#main-content" class="skip-link" data-i18n="nav.skipToMain">Skip to main content</a>
 
@@ -211,11 +212,13 @@
             </svg>
         </button>
     </div>
+    </div> <!-- Đóng page-wrapper -->
 
     <script src="./js/i18n.js"></script>
-    <script src="./js/legacy/services-data.js?v=1.1"></script>
-    <script src="./js/services.js?v=1.1"></script>
-    <script src="./js/main.js"></script>
+    <script type="module" src="./Main_event/supabaseClient.js"></script>
+    
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./Main_event/services.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - SILVIET</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Index.css">
+</head>
+<body>
+
+    <main id="main-content" style="padding-top: 100px;">
+        <section class="section">
+           <div class="container">
+    <a href="Product.html" class="btn btn-outline-hero" style="margin-bottom: 2rem; display: inline-block;">&larr; Back to Products</a>
+    
+    <div id="product-detail-content" class="product-layout">
+        <div class="product-info">
+            <h1 id="product-title">Loading...</h1>
+            <div id="product-description"></div>
+        </div>
+        <div id="product-image-container" class="product-image"></div>
+    </div>
+</div>
+        </section>
+    </main>
+
+    <script type="module" src="./Main_event/product-detail.js"></script>
+    <script src="./js/i18n.js"></script>
+    <script src="./js/main.js"></script>
+    <script type="module" src="./Main_event/supabaseClient.js"></script>
+</body>
+</html>

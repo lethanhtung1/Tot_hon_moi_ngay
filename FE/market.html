@@ -383,19 +383,18 @@
         </section>
 
         <!-- Market Overview -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-i18n="market.overview.title">Market Overview</h2>
-                    <p data-i18n="market.overview.subtitle">Connecting Vietnamese products and industrial materials with
-                        global markets.</p>
-                </div>
-                <div id="market-overview" class="market-grid reveal">
-                    <!-- Region cards will be rendered here -->
-                    <div class="loading">Đang tải dữ liệu...</div>
-                </div>
+     <main id="main-content">
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="market.overview.title">Market Overview</h2>
+                <p data-i18n="market.overview.subtitle">Connecting Vietnamese products and industrial materials with global markets.</p>
             </div>
-        </section>
+            <div id="market-grid" class="market-grid reveal">
+                <div class="loading">Đang tải dữ liệu...</div>
+            </div>
+        </div>
+    </section>
 
         <!-- Key Metrics Infographic -->
         <section class="metrics-section">
@@ -407,20 +406,16 @@
             </div>
         </section>
 
-        <!-- Logistics Network -->
         <section class="section bg-light" id="logistics">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-i18n="market.logistics.title">Integrated Logistics Network</h2>
-                    <p data-i18n="market.logistics.subtitle">Integrated logistics and export support connecting
-                        Vietnamese suppliers with global markets.</p>
-                </div>
-                <div id="logistics-container" class="logistics-grid">
-                    <!-- Logistics cards will be rendered here -->
-                    <div class="loading">Loading network...</div>
-                </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="market.logistics.title">Integrated Logistics Network</h2>
             </div>
-        </section>
+            <div id="logistics-container" class="logistics-grid">
+                <div class="loading">Loading network...</div>
+            </div>
+        </div>
+    </section>
 
         <!-- Hub Advantage -->
         <section class="section">
@@ -651,10 +646,11 @@
         </button>
     </div>
 
-    <script src="js/i18n.js"></script>
-    <script src="js/legacy/market-data.js"></script>
-    <script src="js/market.js"></script>
-    <script src="js/main.js"></script>
+    <script type="module" src="./Main_event/supabaseClient.js"></script>
+<script type="module" src="./Main_event/market-detail.js"></script>
+<script type="module" src="./js/main.js"></script>
+<script src="./js/i18n.js"></script>
+    
 </body>
 
 </html>

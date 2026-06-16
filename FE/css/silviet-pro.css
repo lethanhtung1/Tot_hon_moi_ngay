@@ -1096,7 +1096,6 @@ a:hover { color: var(--color-accent-hover); }
 /* =================================================================
    COMPONENT: SERVICES
    ================================================================= */
-   
 .services-hero {
   background: linear-gradient(rgba(10, 22, 40, 0.88), rgba(15, 32, 64, 0.88));
   background-size: cover;
@@ -1106,33 +1105,31 @@ a:hover { color: var(--color-accent-hover); }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Tăng minmax để card không bị quá hẹp */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--spacing-xl);
   margin-top: var(--spacing-2xl);
-  padding: 0 var(--spacing-md); /* Thêm padding để không dính sát mép màn hình */
+  padding: 20px 0;
 }
 
 .service-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%; /* Đảm bảo các card trong cùng một hàng cao bằng nhau */
   background: var(--color-surface);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border-light);
-  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-spring), box-shadow var(--transition-base), border-color var(--transition-base);
 }
+
 .service-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-xl);
   border-color: rgba(14, 165, 233, 0.28);
 }
 
-.service-card-image { 
-  position: relative; 
-  height: 200px; /* Giảm nhẹ chiều cao để trông thanh thoát hơn */
-  width: 100%; 
-  overflow: hidden; 
-}
+.service-card-image { position: relative; height: 220px; width: 100%; overflow: hidden; }
 
 .service-card-image img {
   width: 100%;
@@ -1195,7 +1192,6 @@ a:hover { color: var(--color-accent-hover); }
 }
 
 .service-cta svg { width: 1.25rem; height: 1.25rem; }
-
 
 /* =================================================================
    COMPONENT: FAB (Floating Action Button)
@@ -1717,4 +1713,3 @@ a:hover { color: var(--color-accent-hover); }
   }
   html { scroll-behavior: auto; }
 }
-  
